@@ -1,37 +1,70 @@
-# Frontend-test-repo
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Возможный Stack
-- React.js
-- Javascript
-- MUI/Tailwind
-- yarn
-- Git
-- HTML/CSS
+## Available Scripts
 
-## Техическое задание для Junior React.js developer
+In the project directory, you can run:
 
-Создать To-Do приложение, в котором будут отображаться задачи с чекбоксами.
-Требования по функционалу:
-1. Задачи визуально отделяются друг от друга
-2. Существуют checkbox'ы
-3. У задач могут быть подзадачи
-4. Есть возможность удалить задачу
-5. Есть возможность отредактировать задачу
-6. Задачи храняться в js-объекте todos, в файле todos_items.js
-7. Быть готовым объяснить мотивы выбранного стека, лучшие/худшие стороны.
-8. Создать Instruction.md файл с инструкцией по запуску приложения.
+### `yarn start`
 
-## Дополнительные (необязательные) задачи
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-1. Разделить приложение на две визуальные зоны: Todo'шки и зона с календарем и погодой на данный момент.
-2. Погоду получать из сервиса OpenWeather, производить запрос к API с помощью axios.
-3. Календарь должен отображать сегодняшнюю дату; + Доп: можно отмечать какие-то промежутки дат, выделять их.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Обратить внимание
-1. Код должен быть написан понятно и аккуратно, с соблюдением табуляции и прочих элементов написания, без лишних элементов и функций, не имеющих отношения к функционалу тестового задания, снабжен понятными комментариями.
-2. Читабельность и наличие элементарной архитектуры.
-3. Чистота и оформление кода — не менее важный фактор. Код должен быть написан в едином стиле (желательно в рекомендуемом для конкретного языка). Также к чистоте относятся отсутствие копипаста и дублирования логики.
+### `yarn test`
 
-## Представление результата
-Итоговый результат должен быть представлен в виде fork'а данной репозитории.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
