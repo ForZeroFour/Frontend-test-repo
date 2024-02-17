@@ -1,2 +1,11 @@
 # Frontend-test-repo
-Our repo with some technical task
+
+
+## Stack
+- React.js
+- Javascript
+- MUI/Tailwind
+- yarn
+- Git
+
+## Техическое задание
