@@ -8,7 +8,6 @@
 - yarn
 - Git
 - HTML/CSS
-- Bootstrap/Bulma
 
 ## Техическое задание для Trainee React.js developer
 
