@@ -1,5 +1,6 @@
 # Frontend-test-repo
 
+Вопросы к собеседованию находятся в Questions.md файле
 
 ## Возможный Stack
 - React.js
